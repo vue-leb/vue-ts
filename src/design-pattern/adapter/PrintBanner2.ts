@@ -1,5 +1,5 @@
-import Banner from '@/disign-pattern/adapter/Banner';
-import Print from '@/disign-pattern/adapter/Print';
+import Banner from '@/design-pattern/adapter/Banner';
+import Print from '@/design-pattern/adapter/Print';
 
 export default class PrintBanner2 implements Print {
     private banner: Banner;

@@ -1,4 +1,4 @@
-import AbstractDisplay from '@/disign-pattern/template/AbstractDisplay';
+import AbstractDisplay from '@/design-pattern/template/AbstractDisplay';
 
 export default class CharDisplay extends AbstractDisplay {
     private char: string;

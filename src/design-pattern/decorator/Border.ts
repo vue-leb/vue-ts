@@ -1,4 +1,4 @@
-import Display from '@/disign-pattern/decorator/Display';
+import Display from '@/design-pattern/decorator/Display';
 
 export default abstract class Border extends Display {
     protected display: Display;

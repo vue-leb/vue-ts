@@ -1,4 +1,4 @@
-import Display from '@/disign-pattern/decorator/Display';
+import Display from '@/design-pattern/decorator/Display';
 
 export default class StringDisplay extends Display {
     private text: string = '';

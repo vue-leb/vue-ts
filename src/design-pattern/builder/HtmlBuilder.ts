@@ -1,4 +1,4 @@
-import Builder from '@/disign-pattern/builder/Builder';
+import Builder from '@/design-pattern/builder/Builder';
 
 export default class HtmlBuilder extends Builder {
     private buffer: Array<string> = [];

@@ -1,5 +1,5 @@
-import Border from '@/disign-pattern/decorator/Border';
-import Display from '@/disign-pattern/decorator/Display';
+import Border from '@/design-pattern/decorator/Border';
+import Display from '@/design-pattern/decorator/Display';
 
 export default class FullBorder extends Border {
     constructor(display: Display) {

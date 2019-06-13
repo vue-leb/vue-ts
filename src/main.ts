@@ -1,8 +1,12 @@
 import Vue from 'vue';
-import App from './App.vue';
+import VueRx from 'vue-rx';
+import BaseLayout from './layouts/BaseLayout';
+import {router} from './router';
 
 Vue.config.productionTip = false;
+Vue.use(VueRx);
 
 new Vue({
-    render: (h) => h(App)
+    router,
+    render: (h) => h(BaseLayout)
 }).$mount('#app');

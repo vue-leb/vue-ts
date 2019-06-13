@@ -1,8 +1,9 @@
 import {Component, Vue} from 'vue-property-decorator';
 
 @Component
-export default class App extends Vue {
+export default class RxjsLayout extends Vue {
+
     protected created() {
-        console.log('STOVE Front Study...');
+        /* tslint:ignore */
     }
 }
