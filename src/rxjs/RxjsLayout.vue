@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Rxjs</h1>
-        <div>
+        <div class="container">
             <ul class="menu">
                 <li>
                     <router-link to="/rxjs/infinity-scroll">infinity-scroll</router-link>
@@ -21,6 +21,13 @@
 <script src="./RxjsLayout.ts"></script>
 
 <style>
+    .container {
+        width: 940px;
+        margin: 0px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+    }
+
     ul.menu {
         list-style: none;
         margin: 0;

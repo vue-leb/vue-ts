@@ -1,6 +1,6 @@
 <template>
     <div>
-        <a></a>
+        infinityScroll
     </div>
 </template>
 
