@@ -12,6 +12,9 @@
                 <li>
                     <router-link to="/rxjs/timer">timer</router-link>
                 </li>
+                <li>
+                    <router-link to="/rxjs/ch2-example1">ch2-example1</router-link>
+                </li>
             </ul>
         </div>
         <router-view></router-view>

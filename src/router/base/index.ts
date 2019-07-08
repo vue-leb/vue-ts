@@ -9,6 +9,7 @@ const Rxjs = () => import(/* webpackChunkName: "Rxjs" */'../../rxjs/Rxjs.vue');
 const Rolling = () => import(/* webpackChunkName: "Rolling" */'../../rxjs/rolling/Rolling.vue');
 const InfinityScroll = () => import(/* webpackChunkName: "InfinityScroll" */'../../rxjs/infinity-scroll/InfinityScroll.vue');
 const Timer = () => import(/* webpackChunkName: "Timer" */'../../rxjs/timer/Timer.vue');
+const Ch2Example1 = () => import(/* webpackChunkName: "Timer" */'../../rxjs/ch2/Example1.vue');
 
 
 export const routes: Array<RouteConfig> = [
@@ -49,6 +50,11 @@ export const routes: Array<RouteConfig> = [
                 path: '/rxjs/timer',
                 name: 'timer',
                 component: Timer
+            },
+            {
+                path: '/rxjs/ch2-example1',
+                name: 'ch2-example1',
+                component: Ch2Example1
             }
         ]
     },
