@@ -11,20 +11,20 @@ export default class Example1 extends Vue {
 
     public exam1() {
         const interval$ = new Observable(function subscribe(observer) {
-            const id = setInterval(function () {
+            const id = setInterval(() => {
                 observer.next(new Date().toString());
             }, 1000);
             // 자원을 해제하는 함수
-            return function () {
+            return () => {
                 console.log('interval 제거');
                 clearInterval(id);
             };
         });
 
-        const subscription = interval$.subscribe(v => console.log(`origin:: ${v}`));
+        const subscription = interval$.subscribe((v) => console.log(`origin:: ${v}`));
 
         // 5초 후 구독을 해제한다.
-        setTimeout(function () {
+        setTimeout(() => {
             subscription.unsubscribe();
         }, 5000);
     }

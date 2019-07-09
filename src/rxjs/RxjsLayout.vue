@@ -15,6 +15,9 @@
                 <li>
                     <router-link to="/rxjs/ch2-example1">ch2-example1</router-link>
                 </li>
+                <li>
+                    <router-link to="/rxjs/empty">empty</router-link>
+                </li>
             </ul>
         </div>
         <router-view></router-view>
